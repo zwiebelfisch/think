@@ -1,0 +1,9 @@
+body {
+  background: #333333;
+}
+.screen {
+  width: 768px;
+  height: 990px;
+  background: #000000;
+  border: #F8E71C 10px solid;
+}
