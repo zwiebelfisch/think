@@ -2,7 +2,8 @@
   position: absolute;
   top: 233px;
   left: 186px;
-  animation: birnenani 10s ease forwards;
+  animation: birnenani 10s 6.8s ease forwards;
+  opacity: 0;
 }
 .kreis-weiss {
   position:relative;
