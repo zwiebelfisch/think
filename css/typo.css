@@ -1,400 +1,857 @@
+
+.point {
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+.point-g {
+    background: #f8e71c none repeat scroll 0 0;
+    height: 20px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+body {
+    background: #333333 none repeat scroll 0 0;
+}
+.screen {
+    background: #000000 none repeat scroll 0 0;
+    border: 10px solid #f8e71c;
+    height: 990px;
+    width: 768px;
+}
 .t11 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:838px;
-  left:136px;
+    animation: 2s ease 0s normal forwards 1 running t11ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 136px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes t11ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 838px;
+}
 }
 .t12 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:808px;
-  left:136px;
+    animation: 2s ease 0.1s normal forwards 1 running t12ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 136px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes t12ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 808px;
+}
 }
 .t13 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:778px;
-  left:136px;
+    animation: 2s ease 0.2s normal forwards 1 running t13ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 136px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes t13ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 778px;
+}
 }
 .t14 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:748px;
-  left:136px;
+    animation: 2s ease 0.3s normal forwards 1 running t14ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 136px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes t14ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 748px;
+}
 }
 .t21 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:718px;
-  left:76px;
+    animation: 2s ease 0.4s normal forwards 1 running t21ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 76px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes t21ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 718px;
+}
 }
 .t22 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:718px;
-  left:106px;
+    animation: 2s ease 0.5s normal forwards 1 running t22ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 106px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes t22ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 718px;
+}
 }
 .t23 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:718px;
-  left:136px;
+    animation: 2s ease 0.6s normal forwards 1 running t23ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 136px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes t23ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 718px;
+}
 }
 .t24 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:718px;
-  left:166px;
+    animation: 2s ease 0.7s normal forwards 1 running t24ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 166px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes t24ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 718px;
+}
 }
 .t25 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:718px;
-  left:196px;
+    animation: 2s ease 0.8s normal forwards 1 running t25ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 196px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes t25ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 718px;
+}
 }
 .h11 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:838px;
-  left:226px;
+    animation: 2s ease 0.9s normal forwards 1 running h11ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 226px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes h11ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 838px;
+}
 }
 .h12 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:808px;
-  left:226px;
+    animation: 2s ease 1s normal forwards 1 running h12ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 226px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes h12ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 808px;
+}
 }
 .h13 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:778px;
-  left:226px;
+    animation: 2s ease 1.1s normal forwards 1 running h13ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 226px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes h13ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 778px;
+}
 }
 .h14 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:748px;
-  left:226px;
+    animation: 2s ease 1.2s normal forwards 1 running h14ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 226px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes h14ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 748px;
+}
 }
 .h15 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:718px;
-  left:226px;
+    animation: 2s ease 1.3s normal forwards 1 running h15ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 226px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes h15ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 718px;
+}
 }
 .h21 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:778px;
-  left:256px;
+    animation: 2s ease 1.4s normal forwards 1 running h21ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 256px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes h21ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 778px;
+}
 }
 .h22 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:778px;
-  left:286px;
+    animation: 2s ease 1.5s normal forwards 1 running h22ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 286px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes h22ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 778px;
+}
 }
 .h23 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:778px;
-  left:316px;
+    animation: 2s ease 1.6s normal forwards 1 running h23ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 316px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes h23ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 778px;
+}
 }
 .h31 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:838px;
-  left:346px;
+    animation: 2s ease 1.7s normal forwards 1 running h31ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 346px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes h31ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 838px;
+}
 }
 .h32 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:808px;
-  left:346px;
+    animation: 2s ease 1.8s normal forwards 1 running h32ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 346px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes h32ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 808px;
+}
 }
 .h33 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:778px;
-  left:346px;
+    animation: 2s ease 1.9s normal forwards 1 running h33ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 346px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes h33ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 778px;
+}
 }
 .h34 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:748px;
-  left:346px;
+    animation: 2s ease 2s normal forwards 1 running h34ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 346px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes h34ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 748px;
+}
 }
 .h35 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:718px;
-  left:346px;
+    animation: 2s ease 2.1s normal forwards 1 running h35ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 346px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes h35ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 718px;
+}
 }
 .i11 {
-  width: 20px;
-  height: 20px;
-  background: #F8E71C;
-  position: absolute;
-  top:838px;
-  left:376px;
+    animation: 2s ease 2.2s normal forwards 1 running i11ani;
+    background: #f8e71c none repeat scroll 0 0;
+    height: 20px;
+    left: 376px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes i11ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 838px;
+}
 }
 .i12 {
-  width: 20px;
-  height: 20px;
-  background: #F8E71C;
-  position: absolute;
-  top:808px;
-  left:376px;
+    animation: 2s ease 2.3s normal forwards 1 running i12ani;
+    background: #f8e71c none repeat scroll 0 0;
+    height: 20px;
+    left: 376px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes i12ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 808px;
+}
 }
 .i13 {
-  width: 20px;
-  height: 20px;
-  background: #F8E71C;
-  position: absolute;
-  top:778px;
-  left:376px;
+    animation: 2s ease 2.4s normal forwards 1 running i13ani;
+    background: #f8e71c none repeat scroll 0 0;
+    height: 20px;
+    left: 376px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes i13ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 778px;
+}
 }
 .i14 {
-  width: 20px;
-  height: 20px;
-  background: #F8E71C;
-  position: absolute;
-  top:718px;
-  left:376px;
+    animation: 2s ease 2.5s normal forwards 1 running i14ani;
+    background: #f8e71c none repeat scroll 0 0;
+    height: 20px;
+    left: 376px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes i14ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 718px;
+}
 }
 .nll {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:838px;
-  left:406px;
+    animation: 2s ease 2.6s normal forwards 1 running n11ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 406px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes n11ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 838px;
+}
 }
 .nl2 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:808px;
-  left:406px;
+    animation: 2s ease 2.7s normal forwards 1 running n12ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 406px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes n12ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 808px;
+}
 }
 .nl3 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:778px;
-  left:406px;
+    animation: 2s ease 2.8s normal forwards 1 running n13ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 406px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes n13ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 778px;
+}
 }
 .nl4 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:748px;
-  left:406px;
+    animation: 2s ease 2.9s normal forwards 1 running n14ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 406px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes n14ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 748px;
+}
 }
 .nl5 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:718px;
-  left:406px;
+    animation: 2s ease 3s normal forwards 1 running n15ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 406px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
 }
-.nl5 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:718px;
-  left:406px;
+@keyframes n15ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 718px;
+}
 }
 .n21 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:748px;
-  left:436px;
+    animation: 2s ease 3.1s normal forwards 1 running n21ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 436px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes n21ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 748px;
+}
 }
 .n22 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:778px;
-  left:466px;
+    animation: 2s ease 3.2s normal forwards 1 running n22ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 466px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes n22ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 778px;
+}
 }
 .n23 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:808px;
-  left:496px;
+    animation: 2s ease 3.3s normal forwards 1 running n23ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 496px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes n23ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 808px;
+}
 }
 .n31 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:838px;
-  left:526px;
+    animation: 2s ease 3.4s normal forwards 1 running n31ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 526px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes n31ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 838px;
+}
 }
 .n32 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:808px;
-  left:526px;
+    animation: 2s ease 3.5s normal forwards 1 running n32ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 526px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes n32ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 808px;
+}
 }
 .n33 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:778px;
-  left:526px;
+    animation: 2s ease 3.6s normal forwards 1 running n33ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 526px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes n33ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 778px;
+}
 }
 .n34 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:748px;
-  left:526px;
+    animation: 2s ease 3.7s normal forwards 1 running n34ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 526px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes n34ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 748px;
+}
 }
 .n35 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:718px;
-  left:526px;
+    animation: 2s ease 3.8s normal forwards 1 running n35ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 526px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes n35ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 718px;
+}
 }
 .k11 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:838px;
-  left:556px;
+    animation: 2s ease 3.9s normal forwards 1 running k11ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 556px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes k11ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 838px;
+}
 }
 .k12 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:808px;
-  left:556px;
+    animation: 2s ease 4s normal forwards 1 running k12ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 556px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes k12ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 808px;
+}
 }
 .k13 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:778px;
-  left:556px;
+    animation: 2s ease 4.1s normal forwards 1 running k13ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 556px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes k13ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 778px;
+}
 }
 .k14 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:748px;
-  left:556px;
+    animation: 2s ease 4.2s normal forwards 1 running k14ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 556px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes k14ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 748px;
+}
 }
 .k15 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:718px;
-  left:556px;
+    animation: 2s ease 4.3s normal forwards 1 running k15ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 556px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes k15ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 718px;
+}
 }
 .k21 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:718px;
-  left:646px;
+    animation: 2s ease 4.4s normal forwards 1 running k21ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 646px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes k21ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 718px;
+}
 }
 .k22 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:748px;
-  left:616px;
+    animation: 2s ease 4.5s normal forwards 1 running k22ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 616px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes k22ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 748px;
+}
 }
 .k23 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:778px;
-  left:586px;
+    animation: 2s ease 4.6s normal forwards 1 running k23ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 586px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes k23ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 778px;
+}
 }
 .k24 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:808px;
-  left:616px;
+    animation: 2s ease 4.7s normal forwards 1 running k24ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 616px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes k24ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 808px;
+}
 }
 .k25 {
-  width: 20px;
-  height: 20px;
-  background: #ffffff;
-  position: absolute;
-  top:838px;
-  left:646px;
+    animation: 2s ease 4.8s normal forwards 1 running k25ani;
+    background: #ffffff none repeat scroll 0 0;
+    height: 20px;
+    left: 646px;
+    position: absolute;
+    top: -20px;
+    width: 20px;
+}
+@keyframes k25ani {
+0% {
+    top: -20px;
+}
+100% {
+    top: 838px;
+}
 }
