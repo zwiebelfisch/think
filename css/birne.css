@@ -34,8 +34,9 @@
 }
 .zahl {
   position: absolute;
-  top: 706px;
+  top: 800px;
   left: 707px;
   color: #F8E71C;
   font-family: "Monda",sans-serif;
+  font-size: 27px;
 }
