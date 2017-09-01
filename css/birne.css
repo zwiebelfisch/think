@@ -2,6 +2,7 @@
   position: absolute;
   top: 233px;
   left: 186px;
+  animation: birnenani 10s ease forwards;
 }
 .kreis-weiss {
   position:relative;
@@ -10,6 +11,7 @@
   border-radius: 50%;
   background: #ffffff;
   z-index:10;
+  animation: weissgelb 2s 10s ease infinite;
 }
 .kreis-gelb {
   position:relative;
@@ -39,4 +41,25 @@
   color: #F8E71C;
   font-family: "Monda",sans-serif;
   font-size: 27px;
+}
+
+@keyframes birnenani {
+  0% {
+  opacity: 0;
+  }
+  100% {
+    opacity: 1;
+}
+}
+
+@keyframes weissgelb {
+  0% {
+    background: #ffffff;
+  }
+  50% {
+    background: #F8E71C;
+}
+  100% {
+    background: #ffffff;
+}
 }
