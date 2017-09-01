@@ -1,7 +1,7 @@
 .birne {
   position: absolute;
-  top: 319px;
-  left: 227px;
+  top: 233px;
+  left: 186px;
 }
 .kreis-weiss {
   position:relative;
@@ -34,8 +34,8 @@
 }
 .zahl {
   position: absolute;
-  top: 800px;
-  left: 707px;
+  top: 706px;
+  left: 680px;
   color: #F8E71C;
   font-family: "Monda",sans-serif;
   font-size: 27px;
